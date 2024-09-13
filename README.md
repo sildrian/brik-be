@@ -1,4 +1,7 @@
 Backend 
+ - Terdapat database yang langsung dapat diimport
+ - Jangan lupa jalankan, "npx prisma db pull" (ketika database sudah diimport). Untuk pull schema db
+ - Dan juga jalankan "npx prisma generate", untuk sync ORM prisma terhadap database
  - Install package first : npm install
  - To run in local : npm run start:dev
  - endpoint login = http://localhost:3000/login (post)
