@@ -1,4 +1,6 @@
 Backend 
+ - To run in local : npm run start:dev
+ - Install package first : npm install
  - endpoint login = http://localhost:3000/login (post)
    	- username : halo
    	- password : asdfg
@@ -10,7 +12,7 @@ Backend
 }
 - endpoint create products = http://localhost:3000/products (post)
 	- json body :
-	{ 
+	```{ 
    		 "categoryid": 1,
    		 "categoryname": "kategori 1",
     		"sku": "MHZVTK",
@@ -22,7 +24,7 @@ Backend
     		"height": 5,
     		"image": "https://cf.shopee.co.id/file/7cb930d1bd183a435f4fb3e5cc4a896b",
     		"price": 100
-}
+}```
 
 - endpoint get products = http://localhost:3000/products?search=&page=1&limit=10
  (get)
