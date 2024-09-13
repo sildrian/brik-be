@@ -1,6 +1,6 @@
 Backend 
- - To run in local : npm run start:dev
  - Install package first : npm install
+ - To run in local : npm run start:dev
  - endpoint login = http://localhost:3000/login (post)
    	- username : halo
    	- password : asdfg
